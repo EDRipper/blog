@@ -2,28 +2,53 @@
 
 Hack Club developers are uniquely privileged in their position. When launching a product we do not have to look far to our audience, we already have huge email lists and outreach. We do not have to seek out financial backing, every idea has an uncapped budget provided it runs with scalable economics. This makes Hack Club an incredible place to be building in, but it also creates a common hitch that at some point you will run into. You deploy something amazing, put it out there, get all the attention and then think "Great! Now what?".
 
-Aside from the problems associated with platform scaling and increased load, A whole heap of users suddenly engaging can provide just as many challenges as acquiring users does. I want to use this blog to talk about what those foreseeable and unforeseeable challenges are, and how I have tackled them (both learnings from failure and advice from success.)
+Aside from the very real technical problems of scaling and increased load, A whole heap of users suddenly engaging can provide just as many challenges as acquiring users does, but these problems are a strange mix of social and technical. I want to use this blog to talk about what those challenges are, and how I have tackled them (both learnings from failure and advice from success).
 
 
 # #1 - If you haven't tried it, it doesn't work;
-This seems obvious, but my biggest takeaway from developing platforms at scale is that every edge case will be found, and every situation tested. If you haven't tested a process yourself, assume it doesn't work. It's always going to be easier for the user to leave and never look back than for them to find the support channel and make a ticket, so It isn't safe to assume you would hear about it if it's a real issue. An example of this - for Campfire Flagship, brand new users were added to the flagship slack channels but never the #Welcome-To-Hack-Club channel. This left 246 users partially on-boarded to the slack, and they all left silently, because with no prior context or investment, why would they bother finding the bug report flow?
+This seems obvious, but my biggest takeaway from developing platforms at scale is that every edge case will be found, and every situation tested. If you haven't tested a process yourself, assume it doesn't work. It's always going to be easier for the user to leave and never look back than for them to find the support channel and make a ticket, so it isn't safe to assume you would hear about it if it's a real issue. An example of this — for Campfire Flagship, brand new users were added to the flagship slack channels but never the #Welcome-To-Hack-Club channel. This left 246 users partially on-boarded to the slack, and they all left silently, because with no prior context or investment, why would they bother finding the bug report flow?
 
 Similarly I took for granted the Hack Club office WiFi, and it took months for anyone to realize that anybody on 3g had to wait 10 seconds for the site to load. Realistically all of those potential users just clicked away forever, they had no motivation to wait or let me know.
 
-Test that the flow works in every scenario, never assume. Try it on incognito, on patchy mobile data, on an obscure browser with a strange screen ratio. If you haven't tried it, it doesn't work.
+Test the unhappy case, never assume. Try it on incognito, on patchy mobile data, on an obscure browser with a strange screen ratio. If you haven't tried it, it doesn't work.
 
 
-# #2 - Nothing is "self-sustaining";
-You could have the perfect on boarding scenario with comprehensive tutorials, you could have tons of guides and an active slack channel, but energy naturally dissipates. What I mean by that is to keep the system at the same state of usage requires putting energy in. The platform will never fully sustain itself. If you architect a platform and don't engage with it, the users will leave. You need to be a part of the community yourself. Below is a graph showing the daily activity (in shipped projects) for Summer Of Making. Each spike represents a very intentional effort to drive engagement, but the general trend without effort is a downward slope. 
+# #2 - Nothing is self-sustaining;
+You could have the perfect on boarding scenario with comprehensive tutorials, you could have tons of guides and an active slack channel, but energy naturally dissipates. What I mean by that is to keep the system at the same state of usage requires putting energy in. I like to think of this like entropy, In terms of physics, there are many more non useful arrangements of energy than useful ones, so given time any concentraition of useful energy tends to dissipate into a 'random' arrangement. Similarly holding high energy users concentrated on one platform is against there natural tendancy, hence a platform will never fully sustain itself. If you architect a platform and don't engage with it, the users will leave. You need to be a part of the community yourself. Below is a graph showing the daily activity (in shipped projects) for Summer Of Making. Each spike represents a very intentional effort to drive engagement, but the general trend without effort is a downward slope. 
 
 ![A Graph of summer of making 2025 engagement over time](https://cdn.hackclub.com/019d1d97-30e9-76be-a185-ba56dda1f0e3/image.png)
 
-Lock-In huddles are a great way to build a sense of community, but it only works on a very small scale. The biggest issue is the barrier to entry, joining a huddle is an act of participation that requires volunteering yourself to be social. The perfect approach puts everybody in a collaborative situation to bring them together, without them having to volunteer themselves. I believe we pulled this off effectively in Summer of Making, and the prolonged graph spiked in mid August backs this up. 
 
+Lock-In huddles
+ are a great way to build a sense of community, but it only works on a small scale. The biggest issue is the barrier to entry, joining a huddle is an act of participation that requires volunteering yourself to be social. The perfect approach puts everybody in a collaborative situation to bring them together, without them having to volunteer themselves. I believe we pulled this off effectively in Summer of Making, and the prolonged graph spiked in mid August backs this up. 
+
+The idea for SOM was simple - the event would end and the website would be sunk if not enough people shipped projects. The artificial pressure got highly invested users to start, which he helped with lock in huddles, but then as the task was a collaborative goal they started asking their friends to help out;
+
+![img](https://cdn.hackclub.com/019d3d50-d602-7ab1-8a2d-5449f5364854/image.png)
+- 
 
 
 
 
 # #3 - How to be kind x1000
+It's very easy to be personable and responsive to a small, intimate community where you can remember each person and the context around their progress. When you have hundreds or thousands of users at different stages, you cannot feasibly be on top of each problem as it occurs, so the problem becomes one of min-maxing for 3 variables, effort, scale and effectivity.
+An effective communication is targetted, but a targeted communication is effort. 
+A scaled communication means a blanket approach that can be very low effort, but is often not effective.
+Identifying large groups that could all benefit from the same small nudge is a real hack to keeping people engaged. 
+When running CFFS we polled every user for their intention. This was first applied as a scaled communication, we sent the simple question do you want to come to the hackathon to a huge audience.
+The results allowed us to make more targetted approaches, atomising our users into groups of
+- No concerns - already engaged, leave them alone
+- Needs a push - interested but hasn't acted
+- Wants to come but can't qualify - a different problem entirely
+- Doesn't want to come - don't waste their inbox
+
+ For the least effort the highest yielding group to target was those who need a nudge, I was then able to write a template email and send it to this group while seeming like I was emailing them individually.
+
+
+![img](https://cdn.hackclub.com/019d3cbd-5edc-7588-8a86-c46059c847ce/image.png)
+
+And again, by grouping our users into atomised distinct categories we were able to see exactly the shift this made within our user funnel. **Eyes are not the same as users, which are not the same as partipants.** You can't measure the success of your communication without metrics.
+
+
 
 
