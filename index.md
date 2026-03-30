@@ -1,4 +1,4 @@
-# So you have users, now what?
+# So you have attention, now what?
 
 >
 >**eyes on the page are not the same as users, and users are not the same as participants.** 
