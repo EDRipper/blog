@@ -1,5 +1,9 @@
 # So you have users, now what?
 
+>
+>**eyes on the page are not the same as users, and users are not the same as participants.** 
+>
+
 Hack Club developers are uniquely privileged in their position. When launching a product we do not have to look far to our audience, we already have huge email lists and outreach. We do not have to seek out financial backing, every idea has an uncapped budget provided it runs with scalable economics. This makes Hack Club an incredible place to be building in, but it also creates a common hitch that at some point you will run into. You deploy something amazing, put it out there, get all the attention and then think "Great! Now what?".
 
 Aside from the very real technical problems of scaling and increased load, a sudden influx of users engaging can provide just as many challenges as acquiring them in the first place does. I'm not the strongest backend engineer, so I want to use this blog to instead cover how I solved these part social and part technical problems that come with users, speaking on both learnings from failure and advice from success.
