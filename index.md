@@ -22,7 +22,7 @@ You could have the perfect onboarding scenario, you could have tons of guides an
 
 Below is a graph showing the daily activity (in shipped projects) for Summer Of Making. Each spike represents a very intentional effort to drive engagement, but the general trend without effort is a downward slope. 
 
-![A Graph of summer of making 2025 engagement over time](https://cdn.hackclub.com/019d1d97-30e9-76be-a185-ba56dda1f0e3/image.png)
+<img src="https://cdn.hackclub.com/019d1d97-30e9-76be-a185-ba56dda1f0e3/image.png" width="700" />
 
 
 So how do I keep users shipping? Lock-in huddles
@@ -30,11 +30,11 @@ So how do I keep users shipping? Lock-in huddles
 
 The idea for SOM was simple - the event would end and the website would be sunk if not enough people shipped projects. The artificial pressure got highly invested users to start, which we helped along with lock in huddles, but then as the task was a collaborative goal they started asking their friends to help out;
 
-![img](https://cdn.hackclub.com/019d3d50-d602-7ab1-8a2d-5449f5364854/image.png)
+<img src="https://cdn.hackclub.com/019d3d50-d602-7ab1-8a2d-5449f5364854/image.png" width="700" />
 - 
 The artificial urgency was backed by an elaborate lore post about Heidi and Orpheus hoisting the summer of making island to safety with balloons. For sure the premise was absurd, but we (not least staff) embraced the game in full, sharing our struggles as we tried to send every shipper a balloon as a thank you. I remember hanging out on a livestream until stupid O-Clock at HQ packing envelopes, only to discover 1 label had been double printed and have to re-scan every envelope to find it.
 
-![img](https://cdn.hackclub.com/019d3d5e-fca8-77e4-8ca0-2f7636d7db2a/image.png)
+<img src="https://cdn.hackclub.com/019d3d5e-fca8-77e4-8ca0-2f7636d7db2a/image.png" width="700" />
 
 
 
@@ -53,15 +53,13 @@ The results allowed us to make more targeted approaches, atomising our users int
 
  For the least effort, the highest yielding group to target was those who need a nudge, I was then able to write a template email and send it to this group while seeming like I was emailing them individually.
 
-
-![an email prompting the user to reach out for any help needed](https://cdn.hackclub.com/019d3cbd-5edc-7588-8a86-c46059c847ce/image.png)
+<img src="https://cdn.hackclub.com/019d3cbd-5edc-7588-8a86-c46059c847ce/image.png" width="700" />
 
 And again, by grouping our users into atomised distinct categories we were able to see exactly the shift this made within our user funnel. 
 
 When it came to finalising the attendee count I also opted to DM users with an automated Slack user token, rather than sending a channel wide ping, again coming across as available and personal. In reality my availability was limited, but people want the perception and comfort of on hand support more than they need the actual support. A direct message had a much greater response than an untargeted ping.
 
-
-![a Slack DM asking if the user is attending](https://cdn.hackclub.com/019d3d6c-7ced-798c-b9ac-58e75b282979/image.png)
+<img src="https://cdn.hackclub.com/019d3d6c-7ced-798c-b9ac-58e75b282979/image.png" width="700" />
 
 The underlying message here is that **eyes on the page are not the same as users, and users are not the same as participants.** Once you've got attention, your job is to move people down that chain, and you can't do that with a blanket approach. Filter your audience as granularly as you can, be intentional about where you spend effort, and always ask what you're actually getting out of each communication. A message that sounds personal at scale is the winning ticket to good conversion. Getting this part right can be the difference between launching a platform and building a community.
 
